@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Test SDK for iOS developer. Test SDK put in project and upload cocoapod.
                    DESC
 
   spec.homepage     = "http://EXAMPLE/IncludeJTDCategoryViewSDK"
