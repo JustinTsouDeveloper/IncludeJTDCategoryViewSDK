@@ -13,6 +13,8 @@
 		08AB816925E3967E00ACB60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816725E3967E00ACB60B /* Main.storyboard */; };
 		08AB816B25E3968000ACB60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816A25E3968000ACB60B /* Assets.xcassets */; };
 		08AB816E25E3968000ACB60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816C25E3968000ACB60B /* LaunchScreen.storyboard */; };
+		08AB82E325E501B500ACB60B /* JTDCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
+		08AB82E525E5023000ACB60B /* JTDCategoryView.framework in Resources */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		08AB816A25E3968000ACB60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AB816D25E3968000ACB60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AB816F25E3968000ACB60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AB82E225E501B500ACB60B /* JTDCategoryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JTDCategoryView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AB82E325E501B500ACB60B /* JTDCategoryView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +60,7 @@
 		08AB816025E3967E00ACB60B /* IncludeJTDCategoryViewSDK */ = {
 			isa = PBXGroup;
 			children = (
+				08AB82E225E501B500ACB60B /* JTDCategoryView.framework */,
 				08AB816125E3967E00ACB60B /* AppDelegate.swift */,
 				08AB816325E3967E00ACB60B /* SceneDelegate.swift */,
 				08AB816525E3967E00ACB60B /* ViewController.swift */,
@@ -124,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AB82E525E5023000ACB60B /* JTDCategoryView.framework in Resources */,
 				08AB816E25E3968000ACB60B /* LaunchScreen.storyboard in Resources */,
 				08AB816B25E3968000ACB60B /* Assets.xcassets in Resources */,
 				08AB816925E3967E00ACB60B /* Main.storyboard in Resources */,
@@ -288,6 +294,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IncludeJTDCategoryViewSDK",
+				);
 				INFOPLIST_FILE = IncludeJTDCategoryViewSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +317,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IncludeJTDCategoryViewSDK",
+				);
 				INFOPLIST_FILE = IncludeJTDCategoryViewSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
