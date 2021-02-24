@@ -17,18 +17,18 @@ Pod::Spec.new do |spec|
 
   spec.name         = "IncludeJTDCategoryViewSDK"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of IncludeJTDCategoryViewSDK."
+  spec.summary      = "Test IncludeJTDCategoryViewSDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-  Test SDK for iOS developer. Test SDK put in project and upload cocoapod.
-                   DESC
+  spec.description  = "<<-DESC
+  Test IncludeJTDCategoryViewSDK.Test IncludeJTDCategoryViewSDK.Test IncludeJTDCategoryViewSDK.
+                     DESC"
 
-  spec.homepage     = "http://EXAMPLE/IncludeJTDCategoryViewSDK"
+  spec.homepage     = "https://cocoapods.org"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -121,6 +121,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AVKit", "AVFoundation", "Foundation", "UIKit"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -139,9 +140,7 @@ Pod::Spec.new do |spec|
 
   # since Apple release Apple Silicon and use arm64 for the simulator, but iOS x86_64 for iOS
   # https://github.com/CocoaPods/CocoaPods/issues/10065
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'}
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'}
 
 end
