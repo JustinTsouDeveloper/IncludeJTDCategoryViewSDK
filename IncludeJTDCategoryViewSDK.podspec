@@ -110,7 +110,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
   # spec.resource = 'IncludeJTDCategoryViewSDK/*.framework'
-  spec.resources = "IncludeJTDCategoryViewSDK/Resources/*.*"
+  # spec.resources = "IncludeJTDCategoryViewSDK/Resources/*.*"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
