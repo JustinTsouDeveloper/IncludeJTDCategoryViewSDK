@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		086CF6B525E6356C0055B570 /* JTDCategoryView.framework in Resources */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
+		086CF81D25E754960055B570 /* JTDCategoryView.framework in Resources */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
+		086CF82025E754B40055B570 /* JTDCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
 		08AB816225E3967E00ACB60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB816125E3967E00ACB60B /* AppDelegate.swift */; };
 		08AB816425E3967E00ACB60B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB816325E3967E00ACB60B /* SceneDelegate.swift */; };
 		08AB816625E3967E00ACB60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB816525E3967E00ACB60B /* ViewController.swift */; };
 		08AB816925E3967E00ACB60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816725E3967E00ACB60B /* Main.storyboard */; };
 		08AB816B25E3968000ACB60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816A25E3968000ACB60B /* Assets.xcassets */; };
 		08AB816E25E3968000ACB60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AB816C25E3968000ACB60B /* LaunchScreen.storyboard */; };
-		08AB82E325E501B500ACB60B /* JTDCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB82E225E501B500ACB60B /* JTDCategoryView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,18 +35,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08AB82E325E501B500ACB60B /* JTDCategoryView.framework in Frameworks */,
+				086CF82025E754B40055B570 /* JTDCategoryView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		086CF81F25E754B40055B570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		08AB815525E3967E00ACB60B = {
 			isa = PBXGroup;
 			children = (
 				08AB816025E3967E00ACB60B /* IncludeJTDCategoryViewSDK */,
 				08AB815F25E3967E00ACB60B /* Products */,
+				086CF81F25E754B40055B570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086CF6B525E6356C0055B570 /* JTDCategoryView.framework in Resources */,
+				086CF81D25E754960055B570 /* JTDCategoryView.framework in Resources */,
 				08AB816E25E3968000ACB60B /* LaunchScreen.storyboard in Resources */,
 				08AB816B25E3968000ACB60B /* Assets.xcassets in Resources */,
 				08AB816925E3967E00ACB60B /* Main.storyboard in Resources */,
