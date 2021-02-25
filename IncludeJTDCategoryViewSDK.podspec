@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IncludeJTDCategoryViewSDK"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "Test IncludeJTDCategoryViewSDK."
 
   # This description is used to generate tags and improve search results.
@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-  spec.resource = 'IncludeJTDCategoryViewSDK/*.framework'
+  # spec.resource = 'IncludeJTDCategoryViewSDK/*.framework'
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
