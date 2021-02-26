@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IncludeJTDCategoryViewSDK"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "Test IncludeJTDCategoryViewSDK."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = "IncludeJTDCategoryViewSDK/JTDCategoryView.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
